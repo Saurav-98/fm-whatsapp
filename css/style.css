@@ -119,9 +119,9 @@ h2::after {
   background-color: var(--dark-green);
   color: #fff;
 }
-nav .btn {
+/* nav .btn {
   background-color: var(--primary-green);
-}
+} */
 .btn:hover {
   background-color: var(--light-1);
   color: var(--primary-green);
