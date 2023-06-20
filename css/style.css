@@ -60,7 +60,7 @@ nav {
   color: var(--light-1);
   font-size: 90%;
   padding: 2rem;
-  max-width: 1360px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -117,7 +117,7 @@ nav ul a:hover {
 
 main {
   background-color: #fff;
-  max-width: 1360px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -273,7 +273,7 @@ footer {
   color: var(--light-1);
 }
 .footer-container {
-  max-width: 1360px;
+  max-width: 1240px;
   margin: 0 auto;
   /* text-align: center; */
   padding: 4rem 1rem;
