@@ -242,6 +242,112 @@ footer h1 {
 .text {
   gap: 1rem;
 }
+.blog-main {
+  padding: 1rem;
+}
+.blog-main h2 {
+  margin-bottom: 5rem;
+}
+.blog {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-block: 5rem;
+}
+.heading,
+.blog .conclusion {
+  background-color: var(--dark-1);
+  color: var(--light-1);
+  padding: 2rem 1rem;
+}
+.blog ol li {
+  margin-bottom: 1rem;
+}
+.blog h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.blog h4 {
+  font-size: 1.4rem;
+  color: var(--dark-green);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.blog h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  bottom: -0.8rem;
+  left: 0;
+  background-color: var(--light-green);
+}
+.blog article {
+  padding: 1rem;
+}
+.blog article:nth-child(2n) {
+  background-color: var(--light-1);
+}
+.blog p {
+  max-width: 100%;
+}
+.blog .btn {
+  max-width: 26rem;
+  margin: 150px auto;
+}
+.blog-heading {
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 0;
+  color: var(--dark-1);
+}
+.blog-main-page {
+  margin-block: 6rem 10rem;
+}
+.blog-main-page .gradients {
+  margin-block: 2rem;
+}
+.blog-list {
+  /* background-color: var(--dark-1); */
+  /* background-color: var(--tertiary-clr); */
+  padding: 5rem 0;
+  border-radius: 5px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: wrap row;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.blogs {
+  background-color: var(--light-1);
+  padding: 2rem 1rem;
+  color: var(--dark-1);
+  box-shadow: 0 1rem 2rem rgba(12, 97, 12, 0.2);
+  border-radius: 10px;
+  flex-basis: 340px;
+}
+.blogs h3 {
+  background-color: var(--dark-1);
+  /* background-color: var(--dark-green); */
+  background-color: var(--primary-green);
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--light-1);
+  /* color: var(--primary-green); */
+  border-radius: 5px;
+}
+.blog-image img {
+  border-radius: 5px;
+}
+.blogs p {
+  text-align: center;
+  margin-block: 2rem;
+}
+.blogs a {
+  text-decoration: none;
+}
 @media (min-width: 850px) {
   nav {
     font-size: 100%;
